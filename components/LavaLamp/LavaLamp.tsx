@@ -12,7 +12,7 @@ import React from "react";
 export const LavaLamp = () => {
   // export const LavaLamp = ({ style }: LampProps) => {
   return (
-    <svg className="lamp" width="100%" height="auto" viewBox="-21 0 100 125">
+    <svg className="lamp" width="100%" height="100%" viewBox="-21 0 100 125">
       <defs>
         <filter id="goo">
           <feGaussianBlur
