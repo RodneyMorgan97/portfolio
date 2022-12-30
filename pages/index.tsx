@@ -32,7 +32,7 @@ export default function Home() {
             <p className={`text-6xl md:text-8xl my-10 text-white`}>
               Rodney Morgan
             </p>
-            <div className="flex  flex-col break-normal">
+            <div className="flex flex-col break-normal">
               <p className={`text-6xl text-white`}>
                 The <b className={`text-theme-burnt-sienna`}>grooviest</b>{" "}
                 choice for
@@ -42,10 +42,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={""}>
-            <div className="">
-              <LavaLamp />
-            </div>
+          <div className={"flex"}>
+            <LavaLamp />
           </div>
         </div>
         <div
