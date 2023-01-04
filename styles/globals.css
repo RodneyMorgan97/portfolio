@@ -21,3 +21,16 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+.ReactModal__Overlay {
+  margin-top: 100%;
+  transition: margin-top 300ms linear;
+}
+
+.ReactModal__Overlay--after-open {
+  margin-top: 0%;
+}
+
+.ReactModal__Overlay--before-close {
+  margin-top: 100%;
+}
